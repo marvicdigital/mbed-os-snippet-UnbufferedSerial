@@ -9,7 +9,7 @@
 static DigitalOut led(LED1);
 
 // Create a UnbufferedSerial object with a default baud rate.
-static UnbufferedSerial serial_port(USBTX, USBRX);
+static UnbufferedSerial serial_port(USBTX, USBRX);  //En Xnucleo F411RE corresponde los mismos puertos
 
 void on_rx_interrupt()
 {
